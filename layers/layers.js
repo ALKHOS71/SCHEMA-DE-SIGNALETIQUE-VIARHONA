@@ -23,7 +23,7 @@ var lyr_EPCI_1 = new ol.layer.Vector({
                 declutter: true,
                 source:jsonSource_EPCI_1, 
                 style: style_EPCI_1,
-                interactive: true,
+                interactive: false,
                 title: '<img src="styles/legend/EPCI_1.png" /> EPCI'
             });
 var format_VIARHONATRACEENPROJET_2 = new ol.format.GeoJSON();
